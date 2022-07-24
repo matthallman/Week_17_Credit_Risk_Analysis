@@ -1,6 +1,4 @@
-# Week_17_Credit_Risk_Analysis
-
-
+## Week 17 Credit Risk Analysis
 ### Deliverable 1 Requirements
 You will earn a perfect score for Deliverable 1 by completing all requirements below:
 - For all three algorithms, the following have been completed:
@@ -34,14 +32,16 @@ You will earn a perfect score for Deliverable 3 by completing all requirements b
 ### Data Used
 - LendingClub: https://help.lendingclub.com/hc/en-us/articles/215488038-What-do-the-different-Note-statuses-mean-
 
-Naive Random Oversampling
-Accuracy: 64.56%
 
-SMOTE Oversampling
-Accuracy: 62.34%
+### Results
+#### Naive Random Oversampling
+- Accuracy: 64.56%
 
-Balanced Random Forest Classifier
-Accuracy: 78.77%
+#### SMOTE Oversampling
+- Accuracy: 62.34%
 
-Easy Ensemble Classifier (Recommended)
-Accuracy: 91.97%
+#### Balanced Random Forest Classifier
+- Accuracy: 78.77%
+
+#### Easy Ensemble Classifier (Recommended)
+- Accuracy: 91.97%
