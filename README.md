@@ -43,5 +43,7 @@ You will earn a perfect score for Deliverable 3 by completing all requirements b
 #### Balanced Random Forest Classifier
 - Accuracy: 78.77%
 
-#### Easy Ensemble Classifier (Recommended)
+#### Easy Ensemble Classifier __(Recommended)__
 - Accuracy: 91.97%
+
+![Recommended](https://github.com/matthallman/Week_17_Credit_Risk_Analysis/blob/main/images/easy_ensemble_classifier.png)
