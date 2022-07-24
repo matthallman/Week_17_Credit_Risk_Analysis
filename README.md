@@ -27,19 +27,21 @@ You will earn a perfect score for Deliverable 3 by completing all requirements b
 - A confusion matrix has been generated (2.5 pt)
 - An imbalanced classification report has been generated (5 pt)
 
-### Deliverable 4 Requirements
-#### Structure, Organization, and Formatting (6 points)
-The written analysis has the following structure, organization, and formatting:
+### Tech Used
+- imbalanced-learn: https://imbalanced-learn.org/stable/introduction.html
+- scikit-learn: https://scikit-learn.org/stable/getting_started.html
 
-- There is a title, and there are multiple sections (2 pt)
-- Each section has a heading and subheading (2 pt)
-- Links to images are working, and code is formatted and displayed correctly (2 pt).
-#### Analysis (24 points)
-- The written analysis has the following:
-Overview of the loan prediction risk analysis:
-The purpose of this analysis is well defined (4 pt)
-- Results:
--- There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
-- Summary:
--- There is a summary of the results (2 pt)
--- There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+### Data Used
+- LendingClub: https://help.lendingclub.com/hc/en-us/articles/215488038-What-do-the-different-Note-statuses-mean-
+
+Naive Random Oversampling
+Accuracy: 64.56%
+
+SMOTE Oversampling
+Accuracy: 62.34%
+
+Balanced Random Forest Classifier
+Accuracy: 78.77%
+
+Easy Ensemble Classifier (Recommended)
+Accuracy: 91.97%
